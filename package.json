@@ -1,0 +1,92 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "marbellachaind-rpc@git+https://github.com/marbellachain/marbellachaind-rpc.git#master",
+        "scope": null,
+        "escapedName": "marbellachaind-rpc",
+        "name": "marbellachaind-rpc",
+        "rawSpec": "git+https://github.com/marbellachain/marbellachaind-rpc.git#master",
+        "spec": "git+https://github.com/marbellachain/marbellachaind-rpc.git#master",
+        "type": "hosted",
+        "hosted": {
+          "type": "github",
+          "ssh": "git@github.com:marbellachain/marbellachaind-rpc.git#master",
+          "sshUrl": "git+ssh://git@github.com/marbellachain/marbellachaind-rpc.git#master",
+          "httpsUrl": "git+https://github.com/marbellachain/marbellachaind-rpc.git#master",
+          "gitUrl": "git://github.com/marbellachain/marbellachaind-rpc.git#master",
+          "shortcut": "github:marbellachain/marbellachaind-rpc#master",
+          "directUrl": "https://raw.githubusercontent.com/marbellachain/marbellachaind-rpc/master/package.json"
+        }
+      },
+      "/root/mynode/node_modules/marbellachaincore-node"
+    ]
+  ],
+  "_from": "git+https://github.com/marbellachain/marbellachaind-rpc.git#master",
+  "_id": "marbellachaind-rpc@0.0.3",
+  "_inCache": true,
+  "_location": "/marbellachaind-rpc",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "marbellachaind-rpc@git+https://github.com/marbellachain/marbellachaind-rpc.git#master",
+    "scope": null,
+    "escapedName": "marbellachaind-rpc",
+    "name": "marbellachaind-rpc",
+    "rawSpec": "git+https://github.com/marbellachain/marbellachaind-rpc.git#master",
+    "spec": "git+https://github.com/marbellachain/marbellachaind-rpc.git#master",
+    "type": "hosted",
+    "hosted": {
+      "type": "github",
+      "ssh": "git@github.com:marbellachain/marbellachaind-rpc.git#master",
+      "sshUrl": "git+ssh://git@github.com/marbellachain/marbellachaind-rpc.git#master",
+      "httpsUrl": "git+https://github.com/marbellachain/marbellachaind-rpc.git#master",
+      "gitUrl": "git://github.com/marbellachain/marbellachaind-rpc.git#master",
+      "shortcut": "github:marbellachain/marbellachaind-rpc#master",
+      "directUrl": "https://raw.githubusercontent.com/marbellachain/marbellachaind-rpc/master/package.json"
+    }
+  },
+  "_requiredBy": [
+    "/marbellachaincore-node"
+  ],
+  "_resolved": "git+https://github.com/marbellachain/marbellachaind-rpc.git#f98addd051cb74acd9afffa7c88f43af8d6cda37",
+  "_shasum": "00c93fb90bda738f544a0c775d25d214eb528ab4",
+  "_shrinkwrap": null,
+  "_spec": "marbellachaind-rpc@git+https://github.com/marbellachain/marbellachaind-rpc.git#master",
+  "_where": "/root/mynode/node_modules/marbellachaincore-node",
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/marbellachain/marbellachaind-rpc/issues"
+  },
+  "contributors": [],
+  "dependencies": {},
+  "description": "MarbellaChain Client Library to connect to MarbellaChain Core via RPC",
+  "devDependencies": {
+    "async": "^0.9.0",
+    "chai": "^1.10.0",
+    "coveralls": "^2.11.2",
+    "istanbul": "^0.3.5",
+    "mocha": "^2.1.0",
+    "sinon": "^1.12.2"
+  },
+  "directories": {},
+  "gitHead": "f98addd051cb74acd9afffa7c88f43af8d6cda37",
+  "homepage": "https://github.com/marbellachain/marbellachaind-rpc",
+  "keywords": [
+    "marbellachain",
+    "rpc"
+  ],
+  "license": "MIT",
+  "main": "lib/index.js",
+  "name": "marbellachaind-rpc",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marbellachain/marbellachaind-rpc.git"
+  },
+  "scripts": {
+    "coverage": "istanbul cover node_modules/.bin/_mocha -- --recursive",
+    "test": "mocha test -R spec"
+  },
+  "version": "0.0.3"
+}
