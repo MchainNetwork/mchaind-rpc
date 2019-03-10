@@ -1,22 +1,22 @@
-marbellachaind-rpc.js
+mchaind-rpc.js
 ===============
 
-A client library to connect to MarbellaChain Core RPC in JavaScript.
+A client library to connect to Mchain Core RPC in JavaScript.
 
 ## Get Started
 
-marbellachaind-rpc.js runs on [node](http://nodejs.org/):
+mchaind-rpc.js runs on [node](http://nodejs.org/):
 
 ```bash
-npm install marbellachaind-rpc
+npm install mchaind-rpc
 ```
 
 ## Examples
 
 ```javascript
 var run = function() {
-  var marbellachaincore = require('marbellachaincore');
-  var RpcClient = require('marbellachaind-rpc');
+  var mchaincore = require('mchaincore');
+  var RpcClient = require('mchaind-rpc');
 
   var config = {
     protocol: 'http',
@@ -52,7 +52,7 @@ var run = function() {
         }
 
         rawtxs.map(function (rawtx) {
-          var tx = new marbellachaincore.Transaction(rawtx.result);
+          var tx = new mchaincore.Transaction(rawtx.result);
           console.log('\n\n\n' + tx.id + ':', tx.toObject());
         });
 
